@@ -1,0 +1,45 @@
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python & Backend
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables (Never push secrets!)
+.env
+
+# =========================
+# Flutter & Dart
+# =========================
+# Hardware-specific workspaces and build folders
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+
+# Android/iOS specific builds
+android/app/build/
+ios/build/
+ios/Pods/
