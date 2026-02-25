@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "738663675010",
+    "firebase_url": "https://chetna-healthhack-default-rtdb.firebaseio.com",
+    "project_id": "chetna-healthhack",
+    "storage_bucket": "chetna-healthhack.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738663675010:android:d54efb09c4a43e0954b09b",
+        "android_client_info": {
+          "package_name": "com.example.chetna_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi3TQ3LMvQDVEenuKVqRIfADF1X_lgAPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

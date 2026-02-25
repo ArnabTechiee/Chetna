@@ -1,0 +1,31 @@
+name: chetna_voice_test
+description: "Chetna Voice Guardian Module"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # CORE STACK
+  speech_to_text: ^7.0.0
+  audioplayers: ^6.0.0
+  record: ^6.1.2
+  
+  # BACKGROUND & PERMISSIONS
+  flutter_background: ^1.3.0  # <--- NEW: Keeps app alive
+  path_provider: ^2.1.2
+  permission_handler: ^12.0.1
+
+  flutter_local_notifications: ^17.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
