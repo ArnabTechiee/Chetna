@@ -1,112 +1,191 @@
 # 🌟 Chetna: Proactive Health & Safety Ecosystem
 
-> An edge-AI powered health ecosystem designed for proactive elderly care, featuring real-time fall detection, environmental sensor fusion, and multi-modal SOS alerts. **Developed for the Google Solution Challenge 2026, directly addressing UN SDG 3: Good Health & Well-being.**
+> An edge-AI powered health ecosystem designed for proactive elderly care, featuring real-time fall detection, environmental sensor fusion, and multi-modal SOS alerts.  
+> **Developed for the Google Solution Challenge 2026, directly addressing UN SDG 3: Good Health & Well-being.**
 
-[](https://github.com/ArnabTechiee/Chetna/network)
-[](https://github.com/ArnabTechiee/Chetna/stargazers)
-[](https://opensource.org/licenses/MIT)
+![GitHub Repo](https://img.shields.io/badge/Repo-Chetna-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
------
+---
 
 ## 📖 Table of Contents
 
-  - [Live Demos & Links](https://www.google.com/search?q=%23-live-demos--links)
-  - [About the Project](https://www.google.com/search?q=%23-about-the-project)
-  - [Key Features](https://www.google.com/search?q=%23-key-features)
-  - [Technology Stack](https://www.google.com/search?q=%23-technology-stack)
-  - [System Architecture](https://www.google.com/search?q=%23-system-architecture)
-  - [Getting Started](https://www.google.com/search?q=%23-getting-started)
-  - [Usage](https://www.google.com/search?q=%23-usage)
-  - [Contributors](https://www.google.com/search?q=%23-contributors)
+- [🔗 Live Demos & Links](#-live-demos--links)
+- [🚀 About the Project](#-about-the-project)
+- [✨ Key Features](#-key-features)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [⚙️ Getting Started](#️-getting-started)
+- [💡 Usage](#-usage)
+- [👥 Contributors](#-contributors)
 
------
+---
 
 ## 🔗 Live Demos & Links
 
-  * 📱 **Mobile App Interactive Demo:** [Test Chetna on Appetize.io](https://appetize.io/app/b_4yf3kdurbl3ionojmwphoopxoe)
-  * 💻 **Caregiver Web Dashboard:** [Live Firebase Deployment](https://chetna-healthhack.web.app/)
-  * 🎥 **3-Minute Pitch Video:** [Watch on Google Drive](https://drive.google.com/file/d/15M_3lniA8H0waL7hH3Lt0QrtbUYRX50E/view)
+- 📱 **Mobile App Interactive Demo:**  
+  👉 https://appetize.io/app/b_4yf3kdurbl3ionojmwphoopxoe  
 
------
+- 💻 **Caregiver Web Dashboard:**  
+  👉 https://chetna-healthhack.web.app/  
+
+- 🎥 **3-Minute Pitch Video:**  
+  👉 https://drive.google.com/file/d/15M_3lniA8H0waL7hH3Lt0QrtbUYRX50E/view  
+
+---
 
 ## 🚀 About the Project
 
-Chetna bridges the gap between reactive emergency response and proactive wellness monitoring. It features a dual-interface system consisting of a user-facing mobile application and a Caregiver Dashboard tailored for guardians and healthcare professionals. By leveraging on-device machine learning (TensorFlow Lite) and the Gemini API, Chetna ensures high privacy, low latency, and continuous protection against the "Silent Gap" in emergency response.
+Chetna bridges the gap between reactive emergency response and proactive wellness monitoring.  
 
------
+It features a **dual-interface system**:
+- 📱 User-facing mobile application  
+- 💻 Caregiver dashboard  
+
+By leveraging:
+- **On-device Machine Learning (TensorFlow Lite)**
+- **Gemini API**
+
+Chetna ensures:
+- 🔒 High privacy  
+- ⚡ Low latency  
+- 🛡️ Continuous protection against the *"Silent Gap"* in emergency response  
+
+---
 
 ## ✨ Key Features
 
-### 1\. Edge AI Fall Detection
+### 1️⃣ Edge AI Fall Detection
 
-  * **On-Device 1D-CNN:** Processes accelerometer and gyroscope data directly on the user's device.
-  * **3-Phase Fall Signature:** Accurately classifies falls by detecting Free-fall, Impact, and Stillness, drastically reducing false positives.
+- **On-Device 1D-CNN:**  
+  Processes accelerometer and gyroscope data locally.
 
-### 2\. Proactive Wellness & Environmental Monitoring
+- **3-Phase Fall Signature:**  
+  Detects:
+  - Free-fall  
+  - Impact  
+  - Stillness  
 
-  * **Sensor Fusion:** Aggregates real-time data across Light, Noise, Temperature, and Air Quality Index (AQI).
-  * **Gemini AI Risk Detection:** Automatically flags potential environmental hazards, such as Sensory Overload and Respiratory Risk, before they become emergencies.
+  → Minimizes false positives significantly.
 
-### 3\. Comprehensive Emergency Protocol
+---
 
-  * **Smart Cancellation:** Features a 15-second cancellation window to prevent false alarms.
-  * **Multi-Modal SOS:** Dispatches instant alerts to the Caregiver Dashboard, activates a loud device siren, and triggers heavy vibrations.
-  * **Chetna Voice Guardian:** A hands-free, NLP voice-activated SOS protocol for situations where physical interaction with the device is impossible (the "Physical Lock").
-  * **Psychological First Aid:** Triggers a "Trusted Voice" audio loop during emergencies to reduce user panic while help arrives.
+### 2️⃣ Proactive Wellness & Environmental Monitoring
 
------
+- **Sensor Fusion:**  
+  Combines real-time data from:
+  - Light  
+  - Noise  
+  - Temperature  
+  - Air Quality Index (AQI)
+
+- **Gemini AI Risk Detection:**  
+  Identifies risks like:
+  - Sensory overload  
+  - Respiratory hazards  
+
+  → Before they become emergencies.
+
+---
+
+### 3️⃣ Comprehensive Emergency Protocol
+
+- ⏳ **Smart Cancellation:**  
+  15-second window to cancel false alerts  
+
+- 🚨 **Multi-Modal SOS:**  
+  - Dashboard alerts  
+  - Loud siren  
+  - Device vibration  
+
+- 🎙️ **Chetna Voice Guardian:**  
+  Hands-free voice-triggered SOS  
+
+- 🧠 **Psychological First Aid:**  
+  Plays trusted voice audio to reduce panic  
+
+---
 
 ## 🛠️ Technology Stack
 
-**Mobile Application:**
+### 📱 Mobile Application
+- Flutter / Dart  
+- TensorFlow Lite (On-device ML)  
+- Custom 2-step fall detection algorithm  
 
-  * **Frontend:** Flutter / Dart
-  * **AI & Offline Intelligence:** TensorFlow Lite (On-device Machine Learning), custom 2-step fall detection algorithm.
+### ☁️ Backend & Dashboard
+- Firebase (Realtime DB, Auth, Sync)  
+- Gemini API  
 
-**Backend & Dashboard:**
-
-  * **Cloud & Database:** Cloud Firebase (Real-time database, Authentication, secure syncing).
-  * **AI Integrations:** Gemini API
-
------
+---
 
 ## ⚙️ Getting Started
 
-Follow these instructions to set up the project locally.
+### ✅ Prerequisites
 
-### Prerequisites
+Make sure you have installed:
+- Git  
+- Flutter  
+- Python  
 
-Make sure you have [Git](https://git-scm.com/), [Flutter](https://flutter.dev/docs/get-started/install), and [Python](https://www.python.org/downloads/) installed on your machine.
+---
 
-### Installation
+### 📦 Installation
 
-1.  **Clone the repository:**
-    git clone [https://github.com/ArnabTechiee/Chetna.git](https://github.com/ArnabTechiee/Chetna.git)
-    cd Chetna/chetna\_app
+Here’s the **corrected Markdown for only the part in your image** 👇
 
-2.  **Install Flutter Dependencies:**
-    flutter pub get
+````markdown
+```bash
+# Clone the repository
+git clone https://github.com/ArnabTechiee/Chetna.git
 
-3.  **Run the Mobile App:**
-    flutter run
+# Navigate to project
+cd Chetna/chetna_app
 
------
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+```
+````
+
 
 ## 💡 Usage
 
-1.  **User Mobile App:** Once installed, grant the necessary permissions (Microphone, Sensors, Location). The app will run quietly in the background monitoring for G-force anomalies or Voice Guardian triggers.
-2.  **Caregiver Dashboard:** Log into the Firebase web portal to view real-time environmental data, mood logs, and instantly receive SOS alerts if a fall is detected.
+### 📱 User Mobile App
 
------
+Grant permissions:
+
+* Microphone
+* Sensors
+* Location
+
+Runs in background:
+
+* Detects falls
+* Listens for voice SOS
+
+### 💻 Caregiver Dashboard
+
+Login via Firebase web portal
+
+Monitor:
+
+* Environmental data
+* Mood logs
+* SOS alerts
 
 ## 👥 Contributors
 
 **Team Name:** Chetna AI
 
-  * **Arnab Mondal** (Team Leader)
-  * **Subhojeet Chanda**
-  * **Gaurang Pant**
+* Arnab Mondal (Team Leader)
+* Subhojeet Chanda
+* Gaurang Pant
 
------
+## ❤️ Acknowledgment
 
-*Built with ❤️ for the Google Solution Challenge 2026*
+Built with ❤️ for the Google Solution Challenge 2026
+
+```
+```
