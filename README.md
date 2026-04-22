@@ -52,30 +52,27 @@ Chetna bridges the gap between reactive emergency response and proactive wellnes
 
 ## 🛠️ Technology Stack
 
-**Mobile Application:**
-* **Frontend:** Flutter / Dart
-* **AI & Offline Intelligence:** TensorFlow Lite (On-device Machine Learning), custom 2-step fall detection algorithm.
+### 📱 Mobile Application
+* **Frontend:** Flutter / Dart for a responsive, cross-platform user interface.
+* **Edge AI & Offline Intelligence:** TensorFlow Lite executing our custom 2-step fall detection algorithm directly on the device.
 
-**Backend & Dashboard:**
-* **Cloud & Database:** Cloud Firebase (Real-time database, Authentication, secure syncing).
-* **AI Integrations:** Gemini API
+### 💻 Backend & Dashboard
+* **Cloud & Database:** Cloud Firebase for real-time data syncing, secure authentication, and dashboard hosting.
+* **AI Integrations:** Gemini API for generating proactive environmental wellness insights.
 
 ---
 
 ## ⚙️ Getting Started
 
 ### ✅ Prerequisites
-
-Make sure you have installed:
-- Git  
-- Flutter  
-- Python  
+Make sure you have the following installed on your machine before proceeding:
+* **Git:** For version control and cloning the repository.
+* **Flutter:** For building and running the mobile application.
+* **Python:** For backend data processing and model tuning.
 
 ---
 
 ### 📦 Installation
-
-Here’s the **corrected Markdown for only the part in your image** 👇
 
 ````markdown
 ```bash
@@ -97,27 +94,12 @@ flutter run
 ## 💡 Usage
 
 ### 📱 User Mobile App
-
-Grant permissions:
-
-* Microphone
-* Sensors
-* Location
-
-Runs in background:
-
-* Detects falls
-* Listens for voice SOS
+* **Initial Setup:** Upon launching the app, grant the necessary hardware permissions (Microphone, Sensors, Location) to enable core safety features.
+* **Background Protection:** Once active, the app runs seamlessly in the background to continuously detect falls and listen for Voice Guardian SOS triggers.
 
 ### 💻 Caregiver Dashboard
-
-Login via Firebase web portal
-
-Monitor:
-
-* Environmental data
-* Mood logs
-* SOS alerts
+* **Secure Access:** Log into the live Firebase web portal using your designated caregiver credentials.
+* **Real-Time Monitoring:** Actively monitor the user's environmental data, review mood logs, and instantly receive automated SOS alerts the moment an emergency is detected.
 
 ## 👥 Contributors
 
