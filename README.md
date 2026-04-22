@@ -186,6 +186,3 @@ Monitor:
 ## ❤️ Acknowledgment
 
 Built with ❤️ for the Google Solution Challenge 2026
-
-```
-```
