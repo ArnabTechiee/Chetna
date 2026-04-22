@@ -90,6 +90,7 @@ flutter run
 ```
 ````
 
+---
 
 ## 💡 Usage
 
@@ -100,6 +101,8 @@ flutter run
 ### 💻 Caregiver Dashboard
 * **Secure Access:** Log into the live Firebase web portal using your designated caregiver credentials.
 * **Real-Time Monitoring:** Actively monitor the user's environmental data, review mood logs, and instantly receive automated SOS alerts the moment an emergency is detected.
+  
+---
 
 ## 👥 Contributors
 
@@ -109,6 +112,10 @@ flutter run
 * Subhojeet Chanda
 * Gaurang Pant
 
+---
+
 ## ❤️ Acknowledgment
 
 Built with ❤️ for the Google Solution Challenge 2026
+
+---
