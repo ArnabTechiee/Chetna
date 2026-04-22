@@ -24,6 +24,7 @@
 * 📱 **Mobile App Interactive Demo:** [Test Chetna on Appetize.io](https://appetize.io/app/b_4yf3kdurbl3ionojmwphoopxoe)
 * 💻 **Caregiver Web Dashboard:** [Live Firebase Deployment](https://chetna-healthhack.web.app/)
 * 🎥 **3-Minute Pitch Video:** [Watch on Google Drive](https://drive.google.com/file/d/15M_3lniA8H0waL7hH3Lt0QrtbUYRX50E/view)
+* 📥 **Direct APK Download:** [Install on Android (Google Drive)](https://drive.google.com/file/d/1wH268TX4DOrVbjZPTRJ4EBDSVZg1GETV/view?usp=sharing)
 
 ---
 
@@ -74,7 +75,6 @@ Make sure you have the following installed on your machine before proceeding:
 
 ### 📦 Installation
 
-````markdown
 ```bash
 # Clone the repository
 git clone https://github.com/ArnabTechiee/Chetna.git
@@ -88,7 +88,6 @@ flutter pub get
 # Run the app
 flutter run
 ```
-````
 
 ---
 
