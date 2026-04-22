@@ -71,6 +71,20 @@ Make sure you have the following installed on your machine before proceeding:
 * **Flutter:** For building and running the mobile application.
 * **Python:** For backend data processing and model tuning.
 
+Follow these instructions to set up the project locally.
+
+### ✅ Prerequisites
+To build and run this application, you will need:
+* **Flutter SDK:** Version 3.10.0 or higher.
+* **Android Studio:** With the latest Android SDK and NDK installed (required for TensorFlow Lite C++ bindings).
+* **Physical Device:** A physical Android smartphone is **strictly required** to test the Edge AI Fall Detection, as desktop emulators cannot simulate accelerometer G-force spikes.
+
+### 🔑 Firebase Configuration
+For security reasons, the `google-services.json` file is not included in this public repository. 
+1. Create a project in your Firebase Console.
+2. Add an Android app with the package name `com.example.chetna` (or your specific package name).
+3. Download the `google-services.json` file and place it inside the `chetna_app/android/app/` directory.
+
 ---
 
 ### 📦 Installation
