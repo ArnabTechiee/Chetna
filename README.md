@@ -23,7 +23,7 @@
 ## 🔗 Live Demos & Links
 * 📱 **Mobile App Interactive Demo:** [Test Chetna on Appetize.io](https://appetize.io/app/b_4yf3kdurbl3ionojmwphoopxoe)
 * 💻 **Caregiver Web Dashboard:** [Live Firebase Deployment](https://chetna-healthhack.web.app/)
-* 🎥 **3-Minute Pitch Video:** [Watch on Google Drive](https://drive.google.com/file/d/15M_3IniA8H0waL7hH3Lt0QrtbUYRX50E/view?usp=sharing)
+* 🎥 **3-Minute Pitch Video:** [Watch on Google Drive](https://drive.google.com/file/d/15M_3lniA8H0waL7hH3Lt0QrtbUYRX50E/view)
 
 ---
 
