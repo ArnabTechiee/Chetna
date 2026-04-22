@@ -1,3 +1,4 @@
+```markdown
 # 🌟 Chetna: Proactive Health & Safety Ecosystem
 
 > An edge-AI powered health ecosystem designed for proactive elderly care, featuring real-time fall detection, environmental sensor fusion, and multi-modal SOS alerts. **Developed for the Google Solution Challenge 2026, directly addressing UN SDG 3: Good Health & Well-being.**
@@ -74,4 +75,33 @@ Make sure you have [Git](https://git-scm.com/), [Flutter](https://flutter.dev/do
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/ArnabTechiee/Chetna.git](https://github.com/ArnabTechiee/Chetna.git)
-   cd Chetna
+   cd Chetna/chetna_app
+   ```
+
+2. **Install Flutter Dependencies:**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the Mobile App:**
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 💡 Usage
+1. **User Mobile App:** Once installed, grant the necessary permissions (Microphone, Sensors, Location). The app will run quietly in the background monitoring for G-force anomalies or Voice Guardian triggers.
+2. **Caregiver Dashboard:** Log into the Firebase web portal to view real-time environmental data, mood logs, and instantly receive SOS alerts if a fall is detected.
+
+---
+
+## 👥 Contributors
+**Team Name:** Chetna AI
+* **Arnab Mondal** (Team Leader)
+* **Subhojeet Chanda**
+* **Gaurang Pant**
+
+---
+*Built with ❤️ for the Google Solution Challenge 2026*
+```
